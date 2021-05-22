@@ -19,7 +19,7 @@ const Home = ({ navigation }) => {
   return (
     <View style={globalStyles.container}>
       <Text style={globalStyles.titleText}>Home Screen</Text>
-      <Button title="go to review details" onPress={() => navigation.navigate('Details')}/>
+      {/* <Button title="go to review details" onPress={() => navigation.navigate('Details')}/> */}
       
       {/* access to destructuring using item below */}
       <FlatList

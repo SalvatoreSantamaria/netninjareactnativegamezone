@@ -8,8 +8,25 @@ const Stack = createStackNavigator();
 
 export const AppNavigator = () => (
   <NavigationContainer>
-    <Stack.Navigator>
-      <Stack.Screen name="Home" component={Home} />
+    <Stack.Navigator
+    
+      initialRouteName="Home"
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: "#ddd",
+          //height: 60,
+        },
+        headerTintColor: "#444",
+      }}
+    
+    >
+      <Stack.Screen 
+        name="Home" 
+        component={Home}
+        options={{
+          title: "GameZone",
+        }}
+       />
       <Stack.Screen name="Details" component={ReviewDetails} />
     </Stack.Navigator>
   </NavigationContainer>
