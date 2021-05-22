@@ -6,4 +6,4 @@
   - from simulator, press ^ command Z to get back to it any time 
 
 
-From the net ninja tutorial on react native: https://www.youtube.com/watch?v=cFVHTazhb7I&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ&index=16 
+- From the net ninja tutorial on react native: https://www.youtube.com/watch?v=cFVHTazhb7I&list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ&index=16 
